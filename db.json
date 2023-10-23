@@ -1,9 +1,25 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "users": [
+    {
+      "email": "ksi@amass.co.kr",
+      "password": "$2a$10$SikNVb1pH8BSKDAvUwaPL.CoGKmM5Ha/EShayAfDAFmP7Fob5ntie",
+      "username": "김순일",
+      "role": "Developer",
+      "id": 1
+    },
+    {
+      "email": "admin@amass.co.kr",
+      "password": "$2a$10$qo5EoXqUh2Nzyx0M6kgrNu1ssbolroLkRVpZvnz3qBK9dZeFDbU1m",
+      "username": "admin",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "email": "cci@amass.co.kr",
+      "password": "$2a$10$TMwOOnPV7tHMVYm6j1MJK.nSzvdZIjdYqXbNumuru1wtUAoopkggy",
+      "username": "최천일",
+      "role": "Developer",
+      "id": 3
+    }
+  ]
 }
